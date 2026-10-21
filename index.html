@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio d'Adja Fatou CISS, étudiante en programmation à la recherche d'un stage pour l'hiver 2027.">
+    <title>Adja Fatou CISS | Portfolio</title>
+    <!-- Polices : Playfair Display (titres élégants) + Poppins (texte) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <header class="navbar">
+        <a href="#accueil" class="logo">Adja<span>.</span></a>
+
+        <nav>
+            <a href="#apropos">À propos</a>
+            <a href="#competences">Compétences</a>
+            <a href="#projets">Projets</a>
+            <a href="#parcours">Parcours</a>
+            <a href="#contact">Contact</a>
+            <!-- Mets ton CV en PDF dans un dossier "documents" -->
+            <a href="documents/CV-Adja-Fatou-CISS.pdf" class="nav-cv" target="_blank">CV ↓</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ========== ACCUEIL ========== -->
+        <section class="hero" id="accueil">
+
+            <div class="hero-content">
+                <p class="badge">
+                    <span class="badge-dot"></span>
+                    Disponible pour un stage · Hiver 2027
+                </p>
+
+                <h1>Adja Fatou <span>CISS</span></h1>
+
+                <h2>Développeuse en formation · Java, C#, Python</h2>
+
+                <p class="description">
+                    Étudiante au DEC en Techniques de l'informatique (programmation),
+                    je termine ma 5<sup>e</sup> session sur 6. J'aime partir d'une idée,
+                    la découper en étapes et la transformer en application qui fonctionne
+                    vraiment.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn">Voir mes projets</a>
+                    <a href="documents/CV-Adja-Fatou-CISS.pdf" class="btn btn-outline" target="_blank">
+                        Télécharger mon CV
+                    </a>
+                </div>
+
+                <div class="hero-links">
+                    <a href="https://github.com/Adjafatouciss" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <!-- À COMPLÉTER : ton lien LinkedIn -->
+                    <a href="https://www.linkedin.com/in/TON-PROFIL" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <!-- Fenêtre de code : en Java, comme ton projet principal -->
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="file-name">Adja.java</span>
+                    </div>
+
+                    <div class="code-content">
+                        <p><span class="code-purple">public class</span> Adja {</p>
+                        <p>&nbsp;&nbsp;String programme = <span class="code-green">"DEC Programmation"</span>;</p>
+                        <p>&nbsp;&nbsp;int session = <span class="code-orange">5</span>;</p>
+                        <p>&nbsp;&nbsp;String[] langages = {</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Java"</span>, <span class="code-green">"C#"</span>, <span class="code-green">"Python"</span></p>
+                        <p>&nbsp;&nbsp;};</p>
+                        <p>&nbsp;&nbsp;<span class="code-purple">boolean</span> chercheStage = <span class="code-purple">true</span>;</p>
+                        <p>}</p>
+                        <p class="terminal-cursor">▌</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- ========== À PROPOS ========== -->
+        <section class="about" id="apropos">
+
+            <p class="intro">QUI JE SUIS</p>
+            <h2>À propos de moi<span class="accent">.</span></h2>
+
+            <div class="about-grid">
+
+                <div class="about-text">
+                    <p>
+                        Je suis Adja Fatou, 23 ans, étudiante au DEC en Techniques
+                        de l'informatique au Collège LaSalle, à Montréal. Avant d'arriver
+                        au Canada, j'ai obtenu un Diplôme supérieur de technologie en
+                        informatique à l'École supérieure polytechnique de Dakar.
+                    </p>
+
+                    <p>
+                        J'ai déjà mis mes compétences en pratique lors d'un stage en
+                        automatisation à la Banque Nationale pour le Développement de
+                        l'Économie, au Sénégal. J'ai aussi cofondé et dirigé une
+                        entreprise de vente en ligne : j'aime construire des choses
+                        concrètes, de l'idée jusqu'au client.
+                    </p>
+
+                    <!-- À COMPLÉTER : c'est ICI que ton portfolio devient le tien.
+                         Écris 2-3 phrases vraies sur toi. Exemples de questions :
+                         - Pourquoi as-tu choisi la programmation ?
+                         - Qu'est-ce qui te motive dans un projet ?
+                         - Quel genre de stage cherches-tu (web, mobile, back-end...) ?
+                         - Une qualité que tes profs ou coéquipiers remarquent ? -->
+                    <p>
+                        [Ce qui m'a amenée vers la programmation, ce que j'aime
+                        construire et ce que je recherche dans un stage.]
+                    </p>
+                </div>
+
+                <div class="about-facts">
+                    <div class="fact">
+                        <span class="fact-label">Formation</span>
+                        <strong>DEC Techniques de l'informatique</strong>
+                        <span>Programmation · Collège LaSalle, Montréal</span>
+                    </div>
+                    <div class="fact">
+                        <span class="fact-label">Avancement</span>
+                        <strong>5<sup>e</sup> session sur 6</strong>
+                        <span>Fin du programme : hiver 2027</span>
+                    </div>
+                    <div class="fact">
+                        <span class="fact-label">Je recherche</span>
+                        <strong>Un stage en développement</strong>
+                        <span>Hiver 2027</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ========== COMPÉTENCES ========== -->
+        <section class="skills" id="competences">
+
+            <p class="intro">MA BOÎTE À OUTILS</p>
+            <h2>Compétences<span class="accent">.</span></h2>
+
+            <!-- Garde seulement ce que tu peux expliquer en entrevue ! -->
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Langages</h3>
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>C#</span>
+                        <span>Python</span>
+                        <span>C</span>
+                        <span>Swift</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Web & frameworks</h3>
+                    <div class="tags">
+                        <span>Spring Boot</span>
+                        <span>.NET</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Bases de données</h3>
+                    <div class="tags">
+                        <span>MySQL</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Outils & méthodes</h3>
+                    <div class="tags">
+                        <span>Git / GitHub</span>
+                        <span>POO</span>
+                        <span>Windows</span>
+                        <span>Ubuntu / Debian</span>
+                        <!-- À COMPLÉTER : IntelliJ, Visual Studio, Xcode, Agile... -->
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Langues</h3>
+                    <div class="tags">
+                        <span>Français</span>
+                        <span>Anglais</span>
+                        <span>Wolof</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========== PROJETS ========== -->
+        <section class="projects" id="projets">
+
+            <p class="intro">CE QUE JE CONSTRUIS</p>
+            <h2>Mes projets<span class="accent">.</span></h2>
+
+            <!-- Projet principal -->
+            <article class="featured-project">
+
+                <div class="featured-info">
+                    <p class="project-label">01 / PROJET PRINCIPAL</p>
+                    <h3>SkyReserve</h3>
+                    <p class="tech">JAVA · SPRING BOOT · FULL-STACK</p>
+
+                    <p class="project-description">
+                        Plateforme web de réservation de billets d'avion.
+                        L'utilisateur recherche un vol, réserve, paie et
+                        retrouve ses billets dans un espace personnel avec
+                        tableau de bord.
+                    </p>
+
+                    <ul class="feature-list">
+                        <li>Recherche de vols par ville de départ et d'arrivée</li>
+                        <li>Inscription, connexion et espace utilisateur</li>
+                        <li>Réservations, paiements et génération de billets</li>
+                        <li>Tableau de bord avec statistiques personnelles</li>
+                        <li>Administration des vols et des réservations</li>
+                    </ul>
+
+                    <!-- À COMPLÉTER (très apprécié des recruteurs) :
+                         une phrase sur un défi technique que TU as réglé.
+                         Ex. : "Le plus difficile : empêcher qu'un même siège
+                         soit réservé deux fois." -->
+
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>MySQL</span>
+                        <span>HTML / CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="https://github.com/Adjafatouciss/SkyReserve"
+                       target="_blank" rel="noopener noreferrer" class="github-link">
+                        Voir le code sur GitHub ↗
+                    </a>
+                </div>
+
+                <div class="project-preview">
+                    <img src="images/skyreserve-accueil.png"
+                         alt="Tableau de bord utilisateur de SkyReserve avec la recherche de vols"
+                         class="project-screenshot">
+                </div>
+
+            </article>
+
+            <!-- Projets secondaires -->
+            <div class="project-grid">
+
+                <article class="project-card">
+                    <p class="project-label">02 / SWIFT</p>
+                    <h3>Gestion des étudiants</h3>
+                    <!-- À COMPLÉTER : que fait l'appli concrètement ?
+                         (ajouter un étudiant, l'inscrire à un cours, calculer une moyenne...) -->
+                    <p>
+                        Application de gestion des étudiants et de leurs cours,
+                        conçue en programmation orientée objet.
+                    </p>
+                    <div class="tags">
+                        <span>Swift</span>
+                        <span>POO</span>
+                    </div>
+                    <!-- À COMPLÉTER : lien GitHub (ou supprime la ligne) -->
+                    <a href="https://github.com/Adjafatouciss" class="card-link" target="_blank" rel="noopener noreferrer">Code ↗</a>
+                </article>
+
+                <article class="project-card">
+                    <p class="project-label">03 / C# .NET</p>
+                    <h3>Carnet de contacts</h3>
+                    <!-- À COMPLÉTER : fonctionnalités réelles
+                         (ajout, recherche, modification, sauvegarde...) -->
+                    <p>
+                        Application pour ajouter, organiser et retrouver
+                        facilement des informations de contact.
+                    </p>
+                    <div class="tags">
+                        <span>C#</span>
+                        <span>.NET</span>
+                    </div>
+                    <a href="https://github.com/Adjafatouciss" class="card-link" target="_blank" rel="noopener noreferrer">Code ↗</a>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- ========== PARCOURS ========== -->
+        <section class="journey" id="parcours">
+
+            <p class="intro">D'OÙ JE VIENS</p>
+            <h2>Mon parcours<span class="accent">.</span></h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <span class="timeline-date">2024 — aujourd'hui</span>
+                    <h3>DEC en Techniques de l'informatique</h3>
+                    <p class="timeline-place">Collège LaSalle · Montréal</p>
+                    <p>Spécialisation programmation. Fin du programme à l'hiver 2027.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">Avril — octobre 2023</span>
+                    <h3>Stagiaire analyste en automatisation</h3>
+                    <p class="timeline-place">Banque Nationale pour le Développement de l'Économie · Dakar</p>
+                    <p>
+                        Automatisation du système de génération des relevés bancaires
+                        des clients et suivi de son bon fonctionnement.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">2021 — 2023</span>
+                    <h3>Diplôme supérieur de technologie en informatique</h3>
+                    <p class="timeline-place">École supérieure polytechnique · Dakar</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">2020 — 2023</span>
+                    <h3>Cofondatrice et directrice générale</h3>
+                    <p class="timeline-place">lidiahouse · Dakar</p>
+                    <p>
+                        Entreprise de vente en ligne de chaussures faites sur mesure :
+                        gestion de l'activité, des commandes et du positionnement de la marque.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">Depuis 2023</span>
+                    <h3>Emplois en parallèle des études</h3>
+                    <p class="timeline-place">Ayta Naturals · Colombus Café & Co · Montréal</p>
+                    <p>
+                        Assistante commerciale et communication digitale, puis service
+                        à la clientèle : contact avec le public, travail d'équipe et
+                        gestion des imprévus.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ========== CONTACT ========== -->
+        <section class="contact" id="contact">
+            <p class="intro">PARLONS-EN</p>
+            <h2>Vous cherchez une stagiaire<span class="accent">?</span></h2>
+            <p class="contact-text">
+                Je suis disponible pour un stage à l'hiver 2027.
+                N'hésitez pas à me contacter ou à consulter mon CV.
+            </p>
+
+            <div class="contact-buttons">
+                <a href="mailto:adjaciss3011@gmail.com" class="btn">adjaciss3011@gmail.com</a>
+                <a href="documents/CV-Adja-Fatou-CISS.pdf" class="btn btn-outline" target="_blank">Mon CV (PDF)</a>
+            </div>
+
+            <div class="hero-links contact-links">
+                <a href="https://github.com/Adjafatouciss" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                <a href="https://www.linkedin.com/in/TON-PROFIL" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Adja Fatou CISS · Portfolio 2026</p>
+    </footer>
+
+</body>
+</html>
