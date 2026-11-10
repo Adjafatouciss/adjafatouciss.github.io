@@ -981,3 +981,32 @@ footer {
         right: 8px;
     }
 }
+
+/* ---------- Boutons du projet principal ---------- */
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 26px;
+}
+
+.project-links .github-link {
+    margin-top: 0;
+}
+
+.github-link-outline {
+    background: transparent;
+    color: var(--rose-fonce);
+    border: 1.5px solid var(--rose);
+    box-shadow: none;
+}
+
+.github-link-outline:hover {
+    background: var(--rose-pale);
+}
+
+.demo-note {
+    margin-top: 12px;
+    font-size: 13px;
+    color: var(--texte-pale);
+}
